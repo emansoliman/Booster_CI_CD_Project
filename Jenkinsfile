@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('prepratiom') {
             steps {
-                git "https://github.com/Maymaher/jenkins_nodejs_example"
+                git "https://github.com/Maymaher/Booster_CI_CD_Project"
             }
         }
          stage('CI') {
